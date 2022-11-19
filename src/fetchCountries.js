@@ -4,8 +4,8 @@ import {
   makeCountriesList,
   makeCountryCard,
   clearPage,
-} from './serviceFunctions';
-import { searchingCountry } from './index';
+  searchingCountry,
+} from './index';
 import Notiflix from 'notiflix';
 
 export const fetchCountries = function (name) {
